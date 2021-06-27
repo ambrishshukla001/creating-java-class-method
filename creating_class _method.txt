@@ -1,0 +1,14 @@
+public class Main{
+public void fullThrottle(){
+System.out.println("the car is going too fast!");
+}
+public void speed(int maxspeed){
+System.out.println("The maximum speed of the car is: " +maxspeed);
+}
+public static void main(String[] args){
+
+Main mycar=new Main();
+mycar.fullThrottle();
+mycar.speed(200);
+}
+}
